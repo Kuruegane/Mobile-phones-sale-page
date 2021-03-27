@@ -1,21 +1,64 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Extra Cells</title>
 		<meta charset="utf-8">
 	</head>
-		<body background="imagens/fundo2.png">
+		<body>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="Extra Cells index.html">Extra Cells</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					  <a class="nav-link" href="Extra Cells quem-somos.html">Quem Somos <span class="sr-only">(página atual)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="Extra Cells contato.html">Contato</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Informática
+					  </a>
+					  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="https://tecnoblog.net/">Tecnologia</a>
+						<a class="dropdown-item" href="https://www.tecmundo.com.br/tecnologia">Tecnologia ao redor do Mundo</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="https://www.bbc.com/portuguese/topics/c404v027pd4t">Tecnologia Brasil</a>
+					  </div>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Em Breve...</a>
+					</li>
+				  </ul>
+				  <form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</div>
+			  </nav>
+
+
 			<table border="0" width="900" align="center">
 				
+				<!--
 				<tr>
 					<td height="89"><img src=""></td>
 					<td align="right">
-						<a href="index.html">Home</a> |
-						<a href="quem-somos.html">Quem Somos</a> |
-						<a href="contato.html">Contato</a> 
+						<a href="Extra Cells index.html">Home</a> |
+						<a href="Extra Cells quem-somos.html">Quem Somos</a> |
+						<a href="Extra Cells contato.html">Contato</a> 
 					</td>
 				</tr>
-
+				-->
 				
 				<tr>
 					<td colspan="2">
@@ -27,21 +70,21 @@
 					</p>
 
 					<h2>10 Motivos para Comprar Conosco</h2>
-
-					<ol type="1">
-						<li>Loja Confiável</li>
-						<li>Entraga para Todo o Brasil</li>
-						<li>Selo de Qualidade</li>
-						<li>Frete Grátis na compra de 2 aparelhos</li>
-						<li>Entregamos seu dinheiro de volta em 30 dias</li>
+					<br>
+					<ol class="list-group">
+								<li class="list-group-item"><img src="https://image.shutterstock.com/image-vector/handshake-shield-check-mark-icon-600w-1020002872.jpg" class="mr-3" alt="..." width="64" height="64"> Loja Confiável</li>
+                                <li class="list-group-item"><img src="https://png.pngtree.com/png-vector/20190219/ourlarge/pngtree-fast-delivery-truck-icon-graphic-design-template-vector-png-image_561946.jpg" class="mr-3" alt="..." width="74" height="74">Entraga para Todo o Brasil</li>
+                                <li class="list-group-item"><img src="https://cdn.w600.comps.canstockphoto.com.br/selo-qualidade-certificado-ouro-cliparte-vetor_csp51277604.jpg" class="mr-3" alt="..." width="64" height="64"> Selo de Qualidade</li>
+                                <li class="list-group-item"><img src="https://img.icons8.com/ios/452/free-shipping.png" class="mr-3" alt="..." width="64" height="64"> Frete Grátis na compra de 2 aparelhos</li>
+                                <li class="list-group-item"><img src="https://image.flaticon.com/icons/png/512/2178/2178632.png" class="mr-3" alt="..." width="64" height="64">Entregamos seu dinheiro de volta em 30 dias</li>
 					</ol>
 
-					<ul type="circle">
-						<li>Licença Verificada</li>
-						<li>Produtos com Nota Fiscal</li>
-						<li>Garantia de 1 ano em novos Produtos</li>
-						<li>Aceitamos seu aparelho usado</li>
-						<li>Sistema de Parceiros</li>
+					<ul class="list-group">
+						<li class="list-group-item"><img src="data:image/png;base64,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" class="mr-3" alt="..." width="64" height="64">Licença Verificada</li>
+						<li class="list-group-item"><img src="https://new.voltaredonda.rj.gov.br/images/Icones/nota_fiscal_01.png" class="mr-3" alt="..." width="64" height="64">Produtos com Nota Fiscal</li>
+						<li class="list-group-item"><img src="https://media.istockphoto.com/vectors/year-warranty-seal-icon-and-gold-color-vector-id925571714" class="mr-3" alt="..." width="64" height="64">Garantia de 1 ano em novos Produtos</li>
+						<li class="list-group-item"><img src="https://cdn.icon-icons.com/icons2/2070/PNG/512/cell_phone_icon_126579.png" class="mr-3" alt="..." width="64" height="64">Aceitamos seu aparelho usado</li>
+						<li class="list-group-item"><img src="https://png.pngtree.com/png-vector/20190721/ourlarge/pngtree-partnership-icon-for-your-project-png-image_1558685.jpg" class="mr-3" alt="..." width="64" height="64">Sistema de Parceiros</li>
 					</ul>
 
 					<hr>
