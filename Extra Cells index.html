@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,6 +6,46 @@
 		<meta charset="utf-8">
 	</head>
 		<body background="imagens/fundo.png">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="Extra Cells index.html">Extra Cells</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  <ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					  <a class="nav-link" href="Extra Cells quem-somos.html">Quem Somos <span class="sr-only">(página atual)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="Extra Cells contato.html">Contato</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Informática
+					  </a>
+					  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="https://tecnoblog.net/">Tecnologia</a>
+						<a class="dropdown-item" href="https://www.tecmundo.com.br/tecnologia">Tecnologia ao redor do Mundo</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="https://www.bbc.com/portuguese/topics/c404v027pd4t">Tecnologia Brasil</a>
+					  </div>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Em Breve...</a>
+					</li>
+				  </ul>
+				  <form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</div>
+			  </nav>
+
 
             <style>
                 .grid-container {
@@ -26,18 +67,50 @@
 
 			<table border="0" width="900" align="center">
 				
+				<!--
 				<tr>
 					<td height="89"><img src=""></td>
 					<td align="right">
-						<a href="index.html">Home</a> |
-						<a href="quem-somos.html">Quem Somos</a> |
-						<a href="contato.html">Contato</a> 
+						<a href="Extra Cells index.html">Home</a> |
+						<a href="Extra Cells quem-somos.html">Quem Somos</a> |
+						<a href="Extra Cells contato.html">Contato</a> 
 					</td>
 				</tr>
-
-				<tr>
-					<td colspan="2" align="center"><img src="https://www.florestaonline.com.br/wp-content/uploads/lara.jpeg" width="400" height="414"> </td>
-				</tr>
+				-->
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="https://fscl01.fonpit.de/userfiles/7446224/image/best-smartphones-2018/best-smartphones-2018-front-closeup.jpg" width="500" height="500" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						  <h5 style="color:rgb(117, 255, 5)">Vendemos os Melhores Eletrônicos da Região</h5>
+						  <p style="color:rgb(220, 245, 0)">A maior parte de nossos representantes já estão abrindo lojas nas maiores capitais.</p>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img src="https://images.tcdn.com.br/img/editor/up/795026/USado1.jpg" width="500" height="500" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						  <h5 style="color:rgb(117, 255, 5)">Agora com Sistema de Bônus!</h5>
+						  <p style="color:rgb(220, 245, 0)">Com seu aparelho usado agora é possível conseguir bônus na compra.</p>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img src="https://www.casasbahia-imagens.com.br/HotSite/2017/2017-03-02/passos.png" width="480" height="350" class="d-block w-100" alt="...">
+					  </div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Próxima</span>
+					</a>
+				  </div>
 				<tr>
 					<td colspan="2">
 
